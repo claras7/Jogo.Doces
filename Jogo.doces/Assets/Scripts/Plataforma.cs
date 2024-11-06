@@ -19,6 +19,14 @@ public class Plataforma : MonoBehaviour
         {
             Invoke("Falling", plataformTime);
         }
+
+    void OnTriggerEnter2D(Collider2D collider)
+    {
+        if(collision.gameObject.layer == 9)
+        {
+            Destroy(gameObject);
+        }
+    }
     }
     void Falling()
     {

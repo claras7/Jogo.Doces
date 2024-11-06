@@ -75,6 +75,11 @@ public class Player : MonoBehaviour
             isJumping = false;
              anim.SetBool("jump", false);
         }
+        if(collision.gameObject.tag == "plataforma")
+        {
+            isJumping = false;
+             anim.SetBool("jump", false);
+        }
 
     }
     void OnCollisionExit2D (Collision2D collision)
@@ -83,6 +88,12 @@ public class Player : MonoBehaviour
         {
           isJumping = true;  
         }
+        if(collision.gameObject.tag == "plataforma")
+        {
+            isJumping = true;
+        }
     }
+    
+
 
 }

@@ -15,6 +15,15 @@ public class PlataformaRosa : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-       if(slider.limitState)
+        if(slider.limitState == JointLimitState2D.LowerLimit)
+       {
+        temp.motorSpeed = 2;
+        slider.motor = temp;
+       }
+       if(slider.limitState == JointLimitState2D.UpperLimit)
+       {
+        temp.motorSpeed = -2;
+        slider.motor = temp;
+       }
     }
 }
