@@ -24,7 +24,8 @@ public class GameController : MonoBehaviour
     {
         gameOver.SetActive(true);
     }
-    public void RestartGame(String lvlName)
+
+    public void RestartGame(string lvlName)
     {
         SceneManager.LoadScene(lvlName);
     }
