@@ -99,6 +99,9 @@ public class Player : MonoBehaviour
         }
     }
     
-
+    public void BoostPlayer(float Impulso)
+    {
+        rig.AddForce(new Vector2(0f,Impulso), ForceMode2D.Impulse);
+    }
 
 }
