@@ -13,10 +13,12 @@ public class Trampolim : MonoBehaviour
     }
     void OnTriggerEnter2D(Collider2D collider)
     {
-        if(collider.gameObject.CompareTag("player"))
+        if(collider.gameObject.CompareTag("Player"))
         {
-            animT.Play("trampolim.mola");
-            collider.gameObject.GetComponent<Player>().BoostPlayer(forcaDaMola);
+            animT.SetTrigger("JumpTrampolim");
+
+            collider.GetComponent<Rigidbody2D>().velocity = Vector2.zero;
+            collider.GetComponent<Rigidbody2D>().AddForce(Vector2.up * forcaDaMola, ForceMode2D.Impulse);
         }
     }
     

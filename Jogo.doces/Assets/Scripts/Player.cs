@@ -99,10 +99,5 @@ public class Player : MonoBehaviour
         }
     }
     
-    public void BoostPlayer(float FImpulso)
-    {
-        rig.velocity = new Vector2(rig.velocity.x, 0f);
-        rig.AddForce(new Vector2(0f,FImpulso), ForceMode2D.Impulse);
-    }
 
 }
