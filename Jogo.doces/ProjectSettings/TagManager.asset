@@ -6,6 +6,7 @@ TagManager:
   tags:
   - plataforma
   - Spike
+  - Limite
   layers:
   - Default
   - TransparentFX
