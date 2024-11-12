@@ -10,7 +10,7 @@ public class ProxNivel : MonoBehaviour
     {
         if(collision.gameObject.tag == "Player")
         {
-            SceneManager.LoadScene(lvlName);
+            GameController.instance.ShowNextLevel();
         }
     }
 }
