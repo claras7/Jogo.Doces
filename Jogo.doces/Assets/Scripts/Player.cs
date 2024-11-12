@@ -12,7 +12,7 @@ public class Player : MonoBehaviour
     private Rigidbody2D rig;
 
     private Animator anim;
-    // Start is called before the first frame update
+    
     void Start()
     {
       rig = GetComponent<Rigidbody2D>();  
@@ -95,6 +95,12 @@ public class Player : MonoBehaviour
            GameController.instance.ShowEnd();
            Destroy(gameObject);
         }
+        if(collision.gameObject.tag == "Next")
+        {
+           GameController.instance.ShowNextLevel();
+           Destroy(gameObject);
+        }
+
 
     }
     void OnCollisionExit2D (Collision2D collision)

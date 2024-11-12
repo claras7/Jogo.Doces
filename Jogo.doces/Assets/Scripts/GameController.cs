@@ -9,6 +9,8 @@ public class GameController : MonoBehaviour
 {
     public GameObject gameOver;
     public GameObject end;
+    public GameObject next;
+
     public static GameController instance;
     
     void Start()
@@ -33,6 +35,22 @@ public class GameController : MonoBehaviour
 
     public void ShowEnd()
     {
-        gameOver.SetActive(true);
+        end.SetActive(true);
+    }
+    public void ShowNextLevel()
+    {
+       next.SetActive(true);
+    }
+    public void ShowNextLevel(string lvlName)
+    {
+        SceneManager.LoadScene(lvlName);
+        
+    }
+    
+
+    public void StartGame(string lvlName)
+    {
+        SceneManager.LoadScene(lvlName);
+        
     }
 }
