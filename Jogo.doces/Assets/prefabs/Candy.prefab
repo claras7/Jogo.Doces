@@ -134,6 +134,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eb985cc9389f6db439a170ae2c8e2b6c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  score: 1
   brilho: {fileID: 1138492416034221892}
 --- !u!1001 &8642188253635885569
 PrefabInstance:
