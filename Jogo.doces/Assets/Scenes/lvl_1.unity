@@ -424,7 +424,7 @@ FixedJoint2D:
   m_BreakAction: 3
   m_AutoConfigureConnectedAnchor: 0
   m_Anchor: {x: -0.02, y: 0}
-  m_ConnectedAnchor: {x: 15.354, y: -1.39}
+  m_ConnectedAnchor: {x: 15.102122, y: -1.39}
   m_DampingRatio: 1
   m_Frequency: 1.76
 --- !u!4 &70665185 stripped
@@ -2939,7 +2939,7 @@ FixedJoint2D:
   m_BreakAction: 3
   m_AutoConfigureConnectedAnchor: 0
   m_Anchor: {x: 0, y: 0}
-  m_ConnectedAnchor: {x: 18.23, y: -1.38}
+  m_ConnectedAnchor: {x: 18.408121, y: -1.38}
   m_DampingRatio: 1
   m_Frequency: 1.76
 --- !u!4 &688606135 stripped
@@ -4655,7 +4655,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3298421901639912787, guid: ac579d7b371c2eb429992fac584d6dca, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 16.37188
+      value: 16.12
       objectReference: {fileID: 0}
     - target: {fileID: 3298421901639912787, guid: ac579d7b371c2eb429992fac584d6dca, type: 3}
       propertyPath: m_LocalPosition.y
@@ -30297,7 +30297,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3298421901639912787, guid: ac579d7b371c2eb429992fac584d6dca, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 19.241879
+      value: 19.42
       objectReference: {fileID: 0}
     - target: {fileID: 3298421901639912787, guid: ac579d7b371c2eb429992fac584d6dca, type: 3}
       propertyPath: m_LocalPosition.y
