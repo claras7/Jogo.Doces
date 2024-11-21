@@ -83,22 +83,22 @@ public class Player : MonoBehaviour
         if(collision.gameObject.tag == "Spike")
         {
            GameController.instance.ShowGameOver();
-           Destroy(gameObject);
+           //Destroy(gameObject);
         }
         if(collision.gameObject.tag == "Limite")
         {
             GameController.instance.ShowGameOver();
-            Destroy(gameObject);
+            //Destroy(gameObject);
         }
         if(collision.gameObject.tag == "Fim")
         {
            GameController.instance.ShowEnd();
-           Destroy(gameObject);
+           //Destroy(gameObject);
         }
         if(collision.gameObject.tag == "Next")
         {
            GameController.instance.ShowNextLevel();
-           Destroy(gameObject);
+           //Destroy(gameObject);
         }
 
 
